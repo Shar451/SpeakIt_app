@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
-    <title><%= yield(:title) %> | SpeakItApp</title>
-    <meta charset="utf-8">
-=======
-    <title><%= yield(:title) %> | SpeakIt</title>
->>>>>>> static-pages
+  <title><%= yield(:title) %> | SpeakItApp</title>
     <%= csrf_meta_tags %>
-      <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all',
-                                            'data-turbolinks-track': 'reload' %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
